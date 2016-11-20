@@ -1,0 +1,15 @@
+
+Šta je urađeno?
+-osmišljen je izgled za sve stranice (home, discover, create, contact, about us)
+-u potpunosti su kreirane stranice: home, about us i contact(koja je podložna izmjenama, ukoliko pronađem/kreiram odgovarajuću sliku/pozadinu)
+Šta nije urađeno?
+-nisu u dovršene stranice discover i create (nisu pronađene fotografije za sve knjige)
+-nije urađen izgled za mobilne telefone
+Buggovi koje sam primjetila:
+-submit button u kontak formi nema konzistentan izgled na svim veličinama
+Lista fileova:
+-home-naslovnica
+-discover-mini biblioteka/omogućena pretraga baze tekstova
+-create-forma za unos/kreiranje tekst/djela
+-contact-kontak forma
+aboutus-krarak opis WSNa
