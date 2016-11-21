@@ -1,0 +1,16 @@
+Urađeno:
+Napravljena dodatna forma na "Create sekciji"
+Urađena validacija za forme na "Create" i "Contact"
+Napravljena galerija koristeći JS na "Discover"
+Napravljeno učitvanje putem Ajax-a 
+
+Nije urađeno:
+Padajući meni/Tree view/Carousel
+
+Bugovi:
+Ajax ne radi bez HTTP protokola
+
+Lista fajlova:
+javascript.js - Kompletan javascript kod za galeriju, validaciju i ajax
+ajax/* - Sve podstranice, tj. bivše stranice
+glavni.css - Cjelokupan css stavljen u ovaj fajl
