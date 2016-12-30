@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+body {
+      background-image: url("https://images2.alphacoders.com/261/26102.jpg");
+      background-size: cover;
+      width: 100%;
+  	  margin: 0 auto;
+  	  min-width: 500px;
+  	  max-width: 100%;
+  }
+
+/* Grid view */
+
+.red{
+	padding: 10px;
+	width:100%;
+	float:left;
+	min-height: 1px;
+}
+
+.kolona{
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-block; /*Omogućava da se kolone prikažu bez da se float mora clearovati poslije*/
+	float: left;
+	min-height: 20px;
+}
+
+.kolona img{width:100%;}
+
+.kolona:first-child{
+	margin-left: 0px;
+}
+
+.kolona:last-child{
+	margin-right: 0px;
+}
+
+.kolona.cetiri{
+	width: 100%;
+}
+.kolona.tri{
+	width: 74%;
+}
+.kolona.dva{
+	width: 48%;
+}
+.kolona.jedan{
+	width: 22%;
+}
+
+#naslov{
+  font-family: "Berkshire Swash", Helvetica, sans-serif;
+  font-size: 26px;
+  margin:15px;
+}
+
+#okvir {
+  background-color: #1d1d1d;
+  max-width: 100%;
+  height: 15%;
+  padding: 20px;
+  margin: 0;
+}
+#header h1 {
+  font-family: "Berkshire Swash", Helvetica, sans-serif;
+  color: white;
+  font-size: 25;
+  text-align: center;
+}
+#opis {
+  width: 100%;
+  font-family:"Arial";
+  font-size: 16px;
+  text-align: left;
+  color:#9d9d9d;
+  margin:0 15px;
+  float:center;
+  line-height: 24px;
+}
+
+
+#meni {
+  background-color: #770202;
+  margin: 0;
+}
+
+#meni ul {
+    list-style-type: none;
+    list-style-position:inside;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+
+}
+#meni li {
+    float: right;
+}
+
+#meni li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ #meni li a:hover {
+    background-color: #1d1d1d;
+}
+
+input[type=text], select {
+    width: 90% ;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=email], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+}
+input[type=submit] {
+    width: 160px;
+    background-color: #770202;
+    color: white;
+    font-size: 15;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 200px;
+}
+
+.greska{
+  color:red;
+}
+
+.bijela-pozadina{
+
+  background: #fff;
+}
+
+.discover-slika:hover{
+  cursor: pointer;
+  width:98%;
+  height: auto;
+}
+
+#nevidljivi{
+  position: absolute;
+  display: none;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  text-align: center;
+  background: rgba(0,0,0,0.8);
+}
+
+#nevidljivi-slika{
+  height:90vh;
+  margin-top: 5vh;
+}
