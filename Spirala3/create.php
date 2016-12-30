@@ -5,7 +5,7 @@
 
   $xml = simplexml_load_file("xml/stories.xml");
   
-  if($_POST['spremi']){
+    if(isset($_POST['spremi'])){
     /* generate id */
     if($xml == false) $id = 1;
     else{
