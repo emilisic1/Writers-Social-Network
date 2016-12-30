@@ -1,5 +1,4 @@
-# Writers-Social-Network
-Web tehnologije-Writers Social Network
+
 Šta je urađeno?
 -Napravljena serijalizacija u XML fajlove
 -Omogućen unos, brisanje i pregled podataka 
